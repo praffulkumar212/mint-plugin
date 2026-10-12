@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mint Chrome"
+  short_description: "Generate approved Chrome 3D icons"
+  default_prompt: "Use $mint-chrome to create a transparent Chrome 3D icon from my description or attached reference."
