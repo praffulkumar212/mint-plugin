@@ -1,0 +1,32 @@
+{
+  "name": "mint",
+  "version": "1.1.0+codex.20260818164613",
+  "description": "Generate transparent 3D product icons with the Mint Chrome visual-style skill.",
+  "author": {
+    "name": "Mint Design Team"
+  },
+  "keywords": [
+    "mint",
+    "mint-chrome",
+    "3d-icons",
+    "design-system",
+    "image-generation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mint",
+    "shortDescription": "Create approved Chrome-style 3D icons.",
+    "longDescription": "Creates transparent 3D product icons from a written concept or an attached subject reference using the bundled Chrome art direction and approved visual references.",
+    "developerName": "Mint Design Team",
+    "category": "Design",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use $mint-chrome to create a Chrome-style 3D icon from my description.",
+      "Use $mint-chrome to restyle my attached object with the Chrome visual system."
+    ],
+    "composerIcon": "./assets/mint.png",
+    "logo": "./assets/mint.png"
+  }
+}
